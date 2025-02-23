@@ -9,8 +9,8 @@ const Services = () => {
     <div className="box">
       <h2 className="offer">ISO 9001 Certification</h2>
       <img src="/images/9001.png" alt="Gift Card" className="image" />
-      <p className="text">Durable & Reliable Rubber Seals Precision Engineered </p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Your Path to Quality & Trust </p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -18,8 +18,8 @@ const Services = () => {
       <figure>
       <img src="/images/1400.png" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Precision-Crafted Custom Rubber Mouldings Engineered for Excellence</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Commit to a Sustainable Future</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -27,8 +27,8 @@ const Services = () => {
       <figure>
       <img src="/images/45001.png" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Reliable & Durable Anti-Vibration Mounts – Reducing Noise</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Building a Healthier Workplace</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -36,8 +36,8 @@ const Services = () => {
       <figure>
       <img src="/images/2200.jpg" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Flexible & Durable Rubber Hoses Tubing Engineered Peak Performance</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Trust in Every Bite</p>
+      <button className="cta-button" onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -45,8 +45,8 @@ const Services = () => {
       <figure>
       <img src="/images/2700.png" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Polymer Components Precision Engineered for Versatility</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Trust Through Information Security</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -54,8 +54,8 @@ const Services = () => {
       <figure>
       <img src="/images/1348.png" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Reliable Leak-Proof O-Rings Sealing Solutions Precision for Every Application</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text"> Excellence in Medical Manufacturing</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -63,8 +63,8 @@ const Services = () => {
       <figure>
       <img src="/images/workshop.jpg" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">High-Quality Rubber Sheets & Rolls – Durable, Flexible Built to Perform</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">  Knowledge That Drives Excellence</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -72,8 +72,8 @@ const Services = () => {
       <figure>
       <img src="/images/internal.png" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Lightweight  Foam Rubber Products Perfect for Cushioning Insulation</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Precision, Insight & Improvement</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -81,8 +81,8 @@ const Services = () => {
       <figure>
       <img src="/images/improvement.png" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Versatile & Heat-Resistant Silicone Rubber Products</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Strategic Solutions for Growth</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -90,8 +90,8 @@ const Services = () => {
       <figure>
       <img src="/images/Audits.png" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Durable & Reliable High-Performance Elastomers</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Stay Aligned, Stay Ahead</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
 
     <div className="box">
@@ -99,8 +99,8 @@ const Services = () => {
       <figure>
       <img src="/images/bussnes.jpg" alt="Gift Card" className="image" />
       </figure>
-      <p className="text">Advanced & Customised Specialty Compounds</p>
-      <button className="cta-button">Order Now→</button>
+      <p className="text">Smart Strategies for Better Results</p>
+      <button className="cta-button"  onClick={()=>{window.location.href="https://wa.me/919922925855"}}>Order Now→</button>
     </div>
     <button id="gobacktohome" onClick={()=>{nav("/")}}>Go back</button>
     </div>

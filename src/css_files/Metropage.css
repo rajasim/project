@@ -22,7 +22,9 @@ body {
   right: 10%;
   box-shadow: 0 0 0.5rem #002b5c;
 }
-
+.navbar aside{
+  position: relative;
+}
 .logo {
   font-size: 18px;
   font-weight: bold;
@@ -34,6 +36,7 @@ body {
   display: flex;
   gap: 20px;
 }
+
 
 .nav-links li {
   cursor: pointer;
@@ -106,6 +109,35 @@ body {
     left: 50%;
     transform: translateX(-50%);
     bottom: 10%;
+  }
+  .nav-links{
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    top:1rem;
+    left:0;
+    background-color: aliceblue;
+    border: 2px solid black;
+    gap: 0;
+    display: none;
+    
+  }
+  .nav-links li{
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem ;
+    font-size: 1rem;
+    color: black;
+    border-bottom: 1px solid dashed;
+    cursor: pointer;
+  }
+  .nav-links li:hover{
+    background-color: whitesmoke;
+  }
+  .navbar{
+    margin: 1rem 0;
+  }
+  .fa-bars-staggered{
+    display: block !important;
   }
 
   .hero-content h1 {

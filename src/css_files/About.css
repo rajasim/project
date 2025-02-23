@@ -76,6 +76,7 @@
         height: auto;
         gap: 1rem;
         padding: 20px;
+        transform: none;
     }
 
     .about-us figure {

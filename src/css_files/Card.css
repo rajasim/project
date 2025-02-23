@@ -82,9 +82,10 @@
     }
 
     .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+       grid-template-columns: 1fr;
+       width: 95%;
+       row-gap: 2rem;
+
     }
 
     .card {
