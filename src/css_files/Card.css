@@ -42,6 +42,11 @@
     flex-direction: column;
     transition: transform 0.5s ease;
   }
+   .card img{
+    height: 60%;
+
+
+   }
 
   .card:hover{
     transform: scale(1.05);
@@ -53,20 +58,7 @@
     background-position: center;
   }
 
-  .cardone {
-    background-image: url('images/product.jpg');
-  }
-  .cardtwo{
-        background-image: url('images/cardtwo.png');
-      }
   
-  .cardthree {
-    background-image: url('images/cardthree.jpg');
-  }
-  
-  .cardfour {
-    background-image: url('images/cardfour.jpg');
-  }
   
   .text-section {
     padding: 20px;

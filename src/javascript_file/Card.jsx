@@ -12,7 +12,7 @@ const Card = () => {
       <div className="content"> 
         
         <div className="card" onClick={()=>{nav('/rubbercard')}}>
-          <div className="image-section cardone"></div>
+          <img src="/images/product.jpg"></img>
           <div className="text-section">
             <h3>Engineering Rubber and Polymer Products</h3>
             <p>Precision Engineered Products for Strength, Durability & Performance..</p>
@@ -21,7 +21,7 @@ const Card = () => {
         <div className="card" onClick={()=>{
           nav('/deired')}}>
         
-          <div className="image-section cardtwo"></div>
+          <img src="/images/cardtwo.png"></img>
           <div className="text-section">
             <h3>Dried & Processed Food/Root products</h3>
             <p>Premium Dried & Processed Foods for a Healthier Tomorrow</p>
@@ -30,7 +30,7 @@ const Card = () => {
         <div className="card" onClick={()=>{
           nav('/woven')
         }}>
-          <div className="image-section cardthree"></div>
+          <img src="/images/cardthree.jpg"></img>
           <div className="text-section">
             <h3>Woven and Knitted Fabric Products</h3>
             <p>Precision-Crafted Fabrics for Comfort, Style, and Durability.</p>
@@ -39,7 +39,7 @@ const Card = () => {
         <div className="card" onClick={()=>{
           nav('/services')
         }}>
-          <div className="image-section cardfour"></div>
+          <img src="/images/cardfour.jpg"></img>
           <div className="text-section">
             <h3>4. ISO Certifications and Business Excellence</h3>
             <p>Setting Global Standards, Achieving Business Excellence.</p>
