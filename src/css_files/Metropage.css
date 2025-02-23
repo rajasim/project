@@ -1,0 +1,123 @@
+/* General Page Styling */
+body {
+  background-color: #021b43;
+  color: white;
+}
+
+.metro-container {
+  
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002b5c;
+  padding: 10px 10px;
+  margin: 4rem 0;
+  width: 80%;
+  z-index: 3;
+  position: absolute;
+  right: 10%;
+  box-shadow: 0 0 0.5rem #002b5c;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+ 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+
+.hero-section {
+  width: 90%;
+  margin: 0 auto;
+  background:linear-gradient(to right, #00337c, #002b5c);
+ 
+}
+.hero-section figure{
+
+  position: relative;
+  width: 100%;
+  height:85vh;
+  margin: 0 auto;
+}
+
+.hero-section figure img{
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content {
+  max-width: 500px;
+  text-align: left;
+  margin-top: 40px; 
+  position: absolute;
+  bottom: 5%;
+  left:5%;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 0.5rem #002b5c;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 0.5rem #002b5c;
+  
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .hero-section figure {
+    height: 65vh;
+  }
+
+  .hero-content {
+    max-width: 90%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
