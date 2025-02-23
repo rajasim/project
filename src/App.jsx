@@ -3,7 +3,6 @@ import Metroopage from "./javascript_file/Metroopage";
 import Card from './javascript_file/Card';
 import About from './javascript_file/About';
 import Footer from './javascript_file/Footer';
-import Rubber from './javascript_file/Rubber';
 import Rubbercard from './javascript_file/Rubbercard';
 import Deired from './javascript_file/Deired';
 import Woven from './javascript_file/Woven';
@@ -20,7 +19,7 @@ function App() {
       <Card/>
       <About/>
       <Footer/>
-      <Rubber/>
+      
       </>}/>
       <Route path='/services' element={<Services/>}/>
       <Route path='/woven' element={<Woven/>}/>
