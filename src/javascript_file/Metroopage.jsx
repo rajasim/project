@@ -31,9 +31,9 @@ const Metroopage = () => {
         <div className="hero-content">
           <h1>Going Further Together</h1>
           <p>
-            Welcome to METRO’s Center of Excellence, where passion meets
+            Welcome to Global's Center of Excellence, where passion meets
             innovation to provide high-quality solutions for business
-            propulsion. Join us in co-creating a #FUTUREREADY path for METRO’s
+            propulsion. Join us in co-creating a #FUTUREREADY path for Global's
             mission of excellence and for you.
           </p>
           <button className="cta-button">More about us →</button>
