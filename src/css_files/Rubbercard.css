@@ -52,5 +52,16 @@
     font-weight: bold;
     cursor: pointer;
   }
+  @media(max-width:480px) {
+
+    .contentent{
+      grid-template-columns: 1fr;
+  
+    }
+    .box{
+      height: 420px;
+    }
+    
+  }
   
   
