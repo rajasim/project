@@ -1,8 +1,15 @@
 import React from "react";
 import "../css_files/Rubbercard.css";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 const Services = () => {
      const nav=useNavigate()
+      useEffect(()=>{
+           window.scrollTo({
+             top:0,
+             behavior:"smooth"
+           })
+         },[])
   return (
     <div className="contentent" id="contentent">
 

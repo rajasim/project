@@ -1,4 +1,4 @@
-/* General Page Styling */
+
 body {
   background-color: #021b43;
   color: white;
@@ -7,6 +7,10 @@ body {
 .metro-container {
   
   width: 100%;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: white;
 }
 
 .navbar {
@@ -121,6 +125,7 @@ body {
     border: 2px solid black;
     gap: 0;
     display: none;
+
     
   }
   .nav-links li{
@@ -133,6 +138,7 @@ body {
   .nav-links li:hover{
     background-color: whitesmoke;
   }
+ 
   .navbar{
     margin: 1rem 0;
   }
@@ -142,6 +148,10 @@ body {
 
   .hero-content h1 {
     font-size: 24px;
+  }
+  .nav-links li a{
+    
+    color: black
   }
 
   .hero-content p {

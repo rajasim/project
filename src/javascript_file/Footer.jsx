@@ -3,7 +3,7 @@ import "../css_files/Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="foter">
       
       <footer>
         <blockquote>

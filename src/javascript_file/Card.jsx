@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Card = () => {
   const nav= useNavigate();
   return (
-    <div className="home-container">
+    <div className="home-container" id="homecontainer">
       <h2 className="goal-text">
         Our goal is to deliver competitive advantage by standardizing processes, being process compliant,
         delivering sustainable cost-effective solutions and empowering our colleagues to do their best each day.

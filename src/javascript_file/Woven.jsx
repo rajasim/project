@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css_files/Rubbercard.css";
 import { useNavigate } from "react-router-dom";
+import { useeffect } from "react";
 
 const Woven = () => {
    
     const nav=useNavigate()
+    useEffect(()=>{
+      window.scrollTo({
+        top:0,
+        behavior:"smooth"
+      })
+    },[])
   return (
     <div className="contentent">
 

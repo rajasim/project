@@ -11,11 +11,11 @@ const Metroopage = () => {
         <div className="logo"><img src="/images/logo.jpeg" style={{width:"140px"}}></img></div>
        <aside> 
         <ul className="nav-links" ref={linkref}>
-          <li>About Us</li>
-          <li>Solutions</li>
-          <li>Join Us</li>
-          <li>Get in Touch</li>
-          <li>Careers</li>
+          <li> <a href="#aboutus">About Us</a></li>
+          <li> <a href="#homecontainer">Servics</a></li>
+          <li><a href="#foter">Join Us</a></li>
+          <li><a href="#foter">Get in Touch</a></li>
+          <li><a href="#homecontainer">Carrier</a></li>
         </ul>
         </aside>
         <i class="fa-solid fa-bars-staggered" style={{fontSize:"2.5rem", cursor:"pointer", display:"none" }} onClick={()=>{
@@ -36,7 +36,7 @@ const Metroopage = () => {
             propulsion. Join us in co-creating a #FUTUREREADY path for Global's
             mission of excellence and for you.
           </p>
-          <button className="cta-button">More about us →</button>
+          
         </div>
       </figure>
         
