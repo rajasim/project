@@ -15,7 +15,7 @@ const Metroopage = () => {
           <li> <a href="#homecontainer">Servics</a></li>
           <li><a href="#foter">Join Us</a></li>
           <li><a href="#foter">Get in Touch</a></li>
-          <li><a href="#homecontainer">Carrier</a></li>
+          
         </ul>
         </aside>
         <i class="fa-solid fa-bars-staggered" style={{fontSize:"2.5rem", cursor:"pointer", display:"none" }} onClick={()=>{
